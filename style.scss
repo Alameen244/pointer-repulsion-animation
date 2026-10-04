@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.cursor{
+  height: 40px;
+  width: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 6.5vw;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hero-title .ch {
+  display: inline-block;
+  will-change: transform;
+}
